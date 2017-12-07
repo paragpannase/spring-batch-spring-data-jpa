@@ -1,0 +1,19 @@
+spring:
+  batch:
+    job:
+      enabled: true
+    initializer:
+      enabled: true
+  datasource:
+    url: jdbc:sqlserver://10.182.207.52:60961;databasename=SurveilDBQA
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: rule14QA
+    password: Rul%14QA
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2008Dialect
+    hibernate:
+      show_sql: true
+      
+     
